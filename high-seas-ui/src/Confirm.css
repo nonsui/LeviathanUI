@@ -1,0 +1,27 @@
+.confirm-wrapper{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background-color: gray;
+    opacity: 0;
+}
+
+.confirm-buttons-container{
+    padding: 5px 15px 10px 15px;
+    text-align: right;
+}
+.confirm-buttons-container button{
+    margin-left: 10px;
+    min-width: 80px;
+    line-height: 20px;
+    border-style: solid;
+    border-radius: 0.2em;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+.confirm-cancel{
+    background-color: #fff;
+    border-color: #848e97;
+}
