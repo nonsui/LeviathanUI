@@ -20,7 +20,10 @@ function App() {
           Learn React and TypeScript
         </a>
       </header>
-      <Confirm />
+      <Confirm  title="Jim Kash Portfolio"
+              content="Welcome to my portfolio site"
+              okCaption="ok"
+              cancelCaption="cancel"/>
     </div>
   );
 }
